@@ -18,6 +18,11 @@ If you are working behind a proxy, consider set `http_proxy` or `https_proxy` en
 * Create project config via `SonarQube Inject: Create local sonarlint config with project binding` and fill the values
 * Update project bindings via `SonarQube Inject: Update bindings to SonarQube server` - it can take a lot of time (~1-2 min) on first binding
 
+## TLDR: Quick Setup for Standalone mode
+
+* Don't create a project config
+* Supported languages: JS, PHP, Python and Java
+
 ## Extension settings
 
 * `sonarqube-inject.enableLinter`  
